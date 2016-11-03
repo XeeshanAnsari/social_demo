@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+   include("./functions/functions.php");
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -34,15 +37,16 @@
                    <div  id ="welcomeTag">
                        <h1>Wellcome to Our Site</h1>
                        <p>firendship coner for those who is interesrt in chating</p>
+                      
                    </div>
                 </div>
                  
                 <div class="col-md-4"> 
                    
                     <div  id="signInBox" >
-                        <form action="./database/signin.php" method="post">
-                            <input type="text" name="userNameIn" id="userNameInput" placeholder="Email or user name"><br>
-                            <input type="password" name="userPasswordIn" id="userPassInput" placeholder="Password">
+                        <form action="" >
+                            <input type="text" name="userNameIn" id="userNameInput" required placeholder="Email or user name"><br>
+                            <input type="password" name="userPasswordIn" id="userPassInput" required placeholder="Password">
                             <button class="btn btn-primary btn-sm signInButton" name="login"  ><b>Log in</b></button>
                             <input type="checkbox" name="rememberMe" id="remember"><label for="remember" id="meRemember"> Remember me . </label>
                             <a href="#" id="forgotPass">Forgot password?</a>
@@ -50,11 +54,11 @@
                     </div>
                     
                     <div  id="signUpBox">
-                        <form action="./database/signup.php" method="post">
+                        <form action="" method="post">
                             <input type="text" name="u_name" id="userNameInputUp" placeholder="User name"><br>
                             <input type="email" name="u_email" id="userEmailInputUp" placeholder="Email"><br>
                             <input type="password" name="u_pass" id="userPassInputUp" placeholder="Password"><br>
-                            <select name="u_countey" id="user_country">country
+                            <select name="u_country" id="user_country">country
                                 <option >select a country</option>
                                 <option >pakistan</option>
                                 <option >america</option>
@@ -67,8 +71,11 @@
                                
                               </select>
                               <input type="date" name="u_birthday" id="user_birth" >
-                            <button class="btn btn-success btn-sm signUpButton" name="signUp"  ><b>Sign up</b></button>
+                            <button class="btn btn-success btn-sm signUpButton" name="sign_up" ><b>Sign up</b></button>
+                             
                          </form> 
+                                <?php  InsertUser(); ?>
+                                
                     </div>
                    <div>
                   
