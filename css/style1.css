@@ -1,0 +1,446 @@
+body{
+    font-size: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F8FA; 
+    position: absolute;
+}
+#mainContainerDiv{
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+#header{
+    padding: 0px;
+    margin: 0px;
+    background-color: #0a55C4;
+}
+#brand{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+.mainBox{
+    background-color: #F5F8FA;
+    padding: 20px;
+   
+}
+#search-form{
+    width: 40%;
+}
+
+#form-control{
+    width: 92%;
+    padding: 5px;
+    margin: 10px 0px;
+    border: 1px solid #8899A6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#btn-search{
+    width: 8%;
+    float: right;
+    padding:  5px; 
+    margin: 10px 0px;
+    background-color: #0084C4;
+    border: 1px solid #0084C4;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#right-nav{
+    width: 40%;
+}
+#user-id  , #user-home  , .header-logo {
+     width: 22%;
+     float: left;
+     padding: 5px 1%;
+     margin: 10px 2%;
+     color: white;
+     border-radius: 3px;     
+}
+#user-home{
+    width: 12%;
+}
+#user-id:hover , #user-home:hover {
+      background-color: #0084C4;
+      text-decoration: none;
+}
+
+#user-id-img{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+.header-logo {
+   width: 22%;
+   padding: 0px;
+   border-right: 1px solid #E1E8ED;
+    
+}
+#header-signout-icon{
+    border: 0px;
+}
+.header-logo a:link{
+    margin: 0px 3%;
+    color: #0a55C4;
+    font-size: 1.5em;
+}
+
+.header-logo a:hover{
+    color: #E1E8ED;
+    text-decoration: none;
+}
+
+
+
+
+
+/*  left side Body   */
+
+
+#left-box{
+    width: 100%; 
+    background-color: #F5F8FA;
+}
+.profile{
+    width: 100%;
+    height: 210px;
+    background-color: white;
+    border: 1px solid #E1E8ED;;
+    border-radius: 5px 5px;
+}
+.profile-blue{
+    width: 100%;
+    height: 100px;
+    background-color: #0084B4;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+    
+}
+.profile-img{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 70px;
+    left: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+.profile-rate{
+    text-align: center;
+    color: #8899A6;
+    font-size: 0.7em; 
+}
+.profile-rate b{
+    color: #0084B4;
+    font-size: 200%;
+}
+.profile-decs{
+  padding: 10px;   
+}
+
+
+/*  left side Body   end */
+
+
+/*  left side group div   */
+.group-box{
+    width: 100%;
+    background-color: white;
+    border: 1px solid #E1E8ED;
+    border-radius: 5px 5px;
+    margin-top: 16px;
+    padding: 10px 5%;
+   
+}
+.group-trend a{
+    text-decoration: none;
+    color: blue;
+    font-size: 0.8em;
+}
+.trend{
+    color: gray;   
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #E1E8ED ;
+    
+}
+.group-link{
+    width: 100%;
+    height: 35px;
+    margin: 4px 0px;
+    font-size: 89%;
+}
+.group-link a{
+    text-decoration: none;
+    color: #0084C4;
+    font-weight: bold;
+}
+.group-link a:hover{
+    text-decoration: none;
+    color: #0084C4;
+    font-weight: bold;
+}
+.group-link p{
+    margin-top: 0px;
+    color: #A599A6;
+    
+}
+
+/*  left side group div   */
+
+
+
+
+/*  center side Body   */
+
+/*  post write Body   */
+.post-box{
+   
+    background-color: #ffffff ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px 0%;
+    border: 1px solid #E1E8ED;
+}
+#photo-select{
+     margin: 0px 20px;
+     padding: 10px 0px 15px 0px; 
+     border-bottom:  1px solid #E1E8ED; 
+}
+#photo-select div{
+    border-left:  2px solid #E1E8ED; 
+}
+#photo-select div > a:hover{
+    text-decoration: none;
+}
+#poxt-write{
+    width: 100%;
+    border-bottom: 1px solid #E1E8ED;
+    padding: 10px 20px;
+    float: left;
+    
+}
+.float-left{
+    float: left;
+}
+.post-write-img{
+    
+}
+.post-write-img img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+.post-write-field{
+    width: 80%;
+}
+#post-text{
+    width: 100%;
+    height: 50px;
+    border: 0px;
+    font-size: 150%;
+    padding: 10px;
+}
+
+.post-btn-tag{
+    
+    padding-right:   10px ;
+    
+}
+#post-btn{
+    width: 100%;
+    font-weight: bold;
+    margin:  10px 10px 0px 0px;
+}
+
+
+
+/*  post write Body end  */
+
+/*  new post Body   */
+.view-new-post{
+    width:100%;
+    padding: 10px;
+    color: #0084B4;
+    background-color: #F5F8FA;
+    border: 1px solid #E1E8ED;
+    text-align: center;   
+}
+.view-new-post a:hover{
+    color: #0084B4;
+    text-decoration: underline;
+}
+
+
+
+/*  all post Body   */
+.post{
+    width: 100%;
+    background-color: white;
+    border: 1px solid #E1E8ED;
+    border-top: 0px;
+    padding: 10px 2%;
+}
+.post:hover{
+    background-color: #F5F8FA;
+}
+
+.post-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px 5px;
+    vertical-align: text-top;
+}
+#post-second{
+    padding-left: 22px;
+    
+}
+.name-user:link{
+     font-weight: bold;
+     color: #574239;
+     text-decoration: none; 
+}
+.name-user:hover{
+     color: #0084B4; 
+    text-decoration:  underline;
+}
+.group-name{
+     color: #9A99AE;
+     font-size: 80%;
+}
+.post-image{
+    margin-top: 20px;
+}
+
+
+.post-image img{
+    width: 100%;
+    height: 370px;
+    border: 1px solid #E1E8ED;
+    border-radius:  5px 5px;
+}
+.post-footer{
+    width: 100%;
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+.post-footer .fa{
+    color: #8899A6;
+    margin-right: 40px;
+}
+.post-footer .fa-reply:hover{
+    color: #0084C4;
+}
+.post-footer  .fa-retweet:hover{
+    color: green;
+}
+.post-footer .fa-heart:hover{
+    color: red;
+}
+
+
+/*  all post Body end  */
+
+
+/*  gmail side box   */
+.find-gmail{
+    width: 100%;
+    background-color: #F5F8FA;
+    border: 1px solid #E1E8ED;
+    border-bottom-left-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+    padding: 10px 5%;
+}
+.gmail-contact{
+    padding: 2%;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E1E8ED;
+}
+.gmail-image img{
+    width: 35px;
+    height: 35px;
+    border-radius: 3px 3px;
+    border: 1px solid #E1E8ED;
+}
+.gmail-text{
+    padding: 2%;
+}
+.find-people-text{
+    width: 100%;
+    font-size: 100%;
+    color: black;
+    font-weight: bold;
+    
+}
+.import-contact-text{
+    font-size: 80%;
+    color: gray;
+}
+.connect-another{
+   padding-top: 5px;
+   text-align: center; 
+}
+.connect-another a{ 
+    text-decoration: none;
+    color: #1DA1F2;
+}
+.connect-another a:link{ 
+    text-decoration: none;
+    color: #1DA1a4;
+}
+.connect-another a:hover{ 
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+/*  gmail side box  end */
+
+/*  about and advertise box */
+.about-twitter{
+    width: 100%;
+    background-color: white;
+    border: 1px solid #E1E8ED;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+    padding: 15px 5%;
+    margin-top: 10px;
+    font-size: 85%;
+    text-align: justify;
+    color: #969CBC;
+}
+.about-twitter a{
+    color: #969CBC;
+    text-decoration: none;
+    padding: 2px 2px; 
+}
+.about-twitter a:hover{
+    color: #969CBC;
+    text-decoration: none;
+    padding: 2px 2px; 
+}
+.advertise-box{
+    width: 100%;
+    background-color: #F5F8FA;
+    border: 1px solid #E1E8ED;
+    border-bottom-left-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+    text-align: center;
+    padding: 10px 5%;
+}
+.advertise-box a{
+    color: #1DA1F2;
+    text-decoration: none;
+}
+.advertise-box a:link{
+    color: cadetblue;
+    text-decoration: none;
+}
+.advertise-box a:hover{
+   color: #1DA1F2;
+    text-decoration: none;
+}
